@@ -1,5 +1,5 @@
 
-const baseURL = "http://127.0.0.1:8000/api/";
+const baseURL = "http://10.28.164.119:8000/api/";
 export function fetcher(url, request_method, data){
 	return fetch(baseURL + url, {
 		method: request_method,

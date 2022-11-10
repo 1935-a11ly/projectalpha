@@ -6,7 +6,7 @@ images: {
     remotePatterns: [
       {
         protocol: 'http',
-        hostname: '127.0.0.1',
+        hostname: '10.28.164.119',
         port: '8000',
         pathname: '/media/images/**',
       },
