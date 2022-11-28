@@ -107,6 +107,7 @@
             flex: 1;
             display: flex;
             flex-direction: column;
+            margin-bottom: 300px;
             /* transform: scale(0.5,0.5); */
             /* justify-content: center;
             align-items: center; */
@@ -114,7 +115,13 @@
         .menufonts{
             display: none;
         }
+        .backlayerimage2{
+                top: 850px !important;
+        }
         .signin{
+            display: none;
+        }
+        .lutherbell{
             display: none;
         }
         .sellbtn{
@@ -123,22 +130,22 @@
         .sellfonts{
             display: none;
         }
-        .midsection{
+        /* .midsection{
             transform: scale(0.6,0.6);
         }
         .format{
             transform: scale(0.4,0.4);
-        }
+        } */
 
     .backlayerimage{
         position: absolute;
-        margin-left: -100px!important;
+        margin-left: -205px!important;
         margin-top: -550px !important;;
     }
     .backlayerimage2{
         position: absolute;
-        margin-bottom: -500px!important;
-        margin-left: -1000px !important;
+        /* margin-bottom: -200px!important; */
+        margin-left: -1095px !important;
     }
     .commute{
         top:0px;
@@ -146,25 +153,17 @@
     .sales{
         top: 0px;
     }
-    .lutherbell{
-        /* margin-top: -800px; */
-        /* position: absolute; */
-        margin-right: -900px !important;
-        float: none;
-        transform: scale(0.2,0.2);
-        position:absolute;
-    }
     .luthercomm{
-        margin-top: -90px;
-        margin-left: -195px;
+        margin-top: 5px;
+        /* margin-left: -195px; */
         position: absolute;
         float: none;
     }
     .lutherstate{
-        margin-top: -75px;
+        margin-top: 40px;
         font-size: x-small;
         transform: scale(0.5);
-        margin-left: -280px;
+        margin-left: -82px;
         position: absolute;
         color: black;
         display: inline-block;
@@ -173,10 +172,10 @@
         
     }
     .getstarted{
-        margin-top: 65px!important;
+        margin-top: 220px!important;
         position: absolute;
-        margin-left: -199px;
-        padding-bottom: 50px;
+        /* margin-left: -199px; */
+        padding-bottom: 10px;
     }
     .commute{
         margin-left: 100px;
